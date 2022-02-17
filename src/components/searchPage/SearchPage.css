@@ -1,0 +1,321 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+
+.SearchPage {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.SearchPage .header{
+    margin-top: 26px;
+    width: 100%;
+    min-width: 1121px;
+    z-index: 128;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.SearchPage .header .topBarLeft{
+    width: 833px;
+    color: #202124;
+}
+
+.SearchPage .header .topBarLeft .searchBox{
+    margin: 0 auto;
+    width: 692px;
+    margin-left: 133px;
+    position: relative;
+    padding-left: 27px;
+}
+
+.SearchPage .header .topBarLeft .searchBox .logo{
+    position: absolute;
+    left: -139px;
+    padding: 4px 28px 0 30px;
+    top: 6px;
+}
+
+.SearchPage .header .topBarLeft .searchBox .searchBar{
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 690px;
+}
+
+.SearchPage .header .topBarLeft .searchBox .searchBar .searchBarInside{
+    flex: 1;
+    display: flex;
+    padding: 5px 4px 0 14px;
+}
+
+.SearchPage .header .topBarLeft .searchBox .searchBar .searchBarInside .a4bIc {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.SearchPage .header .topBarLeft .searchBox .searchBar .searchBarInside .a4bIc .gLFyf{
+    height: 37px;
+    line-height: 39px;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 16px;
+}
+
+.SearchPage .header .topBarLeft .searchBox .searchBar .searchBarInside .tool{
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: -5px;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+.SearchPage .header .topBarLeft .searchBox .searchBar .searchBarInside .tool .keyboard{
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+    margin: 7px 13px 9px 0;
+}
+
+.SearchPage .header .topBarLeft .searchBox .searchBar .searchBarInside .tool .mic{
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+    margin: 7px 13px 9px 0;
+}
+
+.SearchPage .header .topBarLeft .searchBox .searchBar .searchBtn{
+    flex: 0 0 auto;
+    padding-right: 33px;
+    height: 44px;
+    width: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    flex: 0 0 auto;
+    margin: 0;
+}
+
+.SearchPage .header .topBarRight{
+    display: flex;
+}
+
+.SearchPage .header .topBarRight .setting{
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+    margin: 7px 13px 9px 0;
+}
+
+.SearchPage .header .topBarRight .bars{
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+    margin: 7px 13px 9px 0;
+}
+
+.SearchPage .header .topBarRight button{
+    background: #1a73e8;
+    border: 1px solid transparent;
+    padding: 9px 23px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    letter-spacing: 0.25px;
+    margin: 0 8px;
+}
+    
+.SearchPage .header .topBarRight button:hover {
+    background: #4683ea;
+}
+
+.SearchPage .listTools{
+    color: #70757a;
+    font-size: 14px;
+    font-family: Google Sans,arial,sans-serif;
+    border-bottom: 1px solid #ebebeb;
+    position: relative;
+    z-index: 126;
+}
+
+.SearchPage .listTools .yg51vc {
+    background: #fff;
+    height: 58px;
+    padding: 0;
+    position: relative;
+    z-index: 126;
+    white-space: nowrap;
+}
+
+.SearchPage .listTools .yg51vc .hdtb-msb{
+    position: relative;
+    align-items: baseline;
+    display: flex;
+    -ms-flex-pack: justify;
+    float: left;
+    justify-content: space-between;
+    min-width: 832px;
+}
+
+.SearchPage .listTools .yg51vc .hdtb-msb .MUFPAc {
+    display: inline;
+    margin-left: 169px;
+}
+
+.SearchPage .listTools .yg51vc .hdtb-msb .MUFPAc .hdtb-mitem{
+    height: 16px;
+    line-height: 16px;
+    margin: 11px 1px 0;
+    display: inline-block;
+    padding: 17px 12px 11px 10px;
+}
+
+.SearchPage .listTools .yg51vc .hdtb-msb .MUFPAc .hdtb-mitem .Link{
+    color: #5f6368;
+    text-decoration: none;
+    padding: 17px 12px 11px 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,.10);
+    line-height: 16px;
+    white-space: nowrap;
+}
+
+.SearchPage .listTools .yg51vc .hdtb-msb .MUFPAc .hdtb-mitem .Link img{
+    margin-right: 7px;
+}
+
+.SearchPage .main .appbar{
+    position: relative;
+    height: 43px;
+    margin-left: 180px;
+    color: #70757a;
+    min-width: 652px;
+    line-height: 43px;
+    font-size: 14px;
+}
+
+.SearchPage .main .GyAeWb{
+    margin-left: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    max-width: 1261px;
+}
+
+.SearchPage .main .s6JM6d {
+    width: 652px;
+    position: relative;
+    margin-left: 180px;
+    margin-bottom: 150px;
+    flex: 0 auto;
+}
+
+.SearchPage .main .tF2Cxc{
+    width: 600px;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 30px;
+    line-height: 1.58;
+    text-align: left;
+}
+
+.tF2Cxc .displayLink{
+    text-decoration: none;
+    color: #202124;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.tF2Cxc .title{
+    text-decoration: none;
+    color: #1a0dab;
+    line-height: 1.3;
+    margin-bottom: 3px;
+    font-size: 20px;
+}
+
+.tF2Cxc .snippet{
+    color: #4d5156;
+    line-height: 1.58;
+    font-size: 14px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #f2f2f2;
+}
+
+.footer .row1 {
+    color: #70757a;
+    font-size: 15px;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+}
+
+.footer .row2 {
+    display: flex;
+    justify-content: space-between;
+    color: #70757a;
+    padding: 0 20px;
+}
+
+.footer .row2 ul {
+    display: flex;
+}
+
+.footer .row2 ul li {
+    list-style: none;
+    padding: 15px;
+}
+
+.footer .row2 ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #70757a;
+}
+
+.footer .row2 ul:nth-child(2) li a {
+    text-decoration: none;
+    font-size: 14px;
+}

@@ -1,0 +1,249 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+
+.HomePage {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.HomePage .header {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    padding: 6px;
+}
+
+.HomePage .header ul {
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 4px;
+}
+
+.HomePage .header ul li {
+    float: left;
+    list-style: none;
+    margin-left: 15px;
+}
+
+.HomePage .header ul li a {
+    font-size: 13px;
+    color: #000000DE;
+    text-decoration: none;
+}
+
+.HomePage .header ul li a:hover {
+    text-decoration: underline;
+}
+
+.HomePage .header ul li.bars {
+    padding-left: 15px;
+    height: 16px;
+}
+
+.HomePage .header ul li button {
+    background: #1a73e8;
+    border: 1px solid transparent;
+    padding: 9px 23px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    letter-spacing: 0.25px;
+    margin: 0 8px;
+}
+
+.HomePage .header ul li button:hover {
+    background: #4683ea;
+}
+
+.HomePage .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.HomePage .main .google {
+    height: 92px
+}
+
+.HomePage .main .searchSection {
+    padding: 20px;
+    max-height: 160px;
+    width: 100%;
+}
+
+.HomePage .main .searchBox {
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #202124;
+}
+
+.HomePage .main .searchBox .insideSearchBox {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 14px;
+}
+
+.HomePage .main .searchBox .insideSearchBox .searchImg {
+    height: 20px;
+    width: 20px;
+    margin: 7px 13px 9px 0;
+}
+
+.HomePage .main .searchBox .insideSearchBox .searchImg img {
+    height: 14.58px;
+    width: 14.58px;
+}
+
+.HomePage .main .searchBox .insideSearchBox .searchBar {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.HomePage .main .searchBox .insideSearchBox .searchBar input {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, .87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: -3px;
+    height: 34px;
+    font-size: 16px;
+}
+
+.HomePage .main .searchBox .insideSearchBox .tool {
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: -5px;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+.HomePage .main .searchBox .insideSearchBox .tool .keyboard {
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+    margin: 7px 13px 9px 0;
+}
+
+.HomePage .main .searchBox .insideSearchBox .tool .mic {
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+    margin: 7px 13px 9px 0;
+}
+
+.HomePage .main .buttons {
+    margin-top: 20px;
+}
+
+.HomePage .main .buttons button {
+    margin: 0 5px;
+    padding: 12px 20px;
+    color: #555;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+.HomePage .main .buttons button:hover {
+    border: 1px solid t#ccc;
+}
+
+.HomePage .main .languages {
+    display: flex;
+    margin-top: 30px;
+}
+
+.HomePage .main .languages li {
+    list-style: none;
+    margin: 0 5px;
+    font-size: 13px;
+}
+
+.HomePage .main .languages li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.HomePage .main .languages li a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #f2f2f2;
+}
+
+.footer .row1 {
+    color: #70757a;
+    font-size: 15px;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+}
+
+.footer .row2 {
+    display: flex;
+    justify-content: space-between;
+    color: #70757a;
+    padding: 0 20px;
+}
+
+.footer .row2 ul {
+    display: flex;
+}
+
+.footer .row2 ul li {
+    list-style: none;
+    padding: 15px;
+}
+
+.footer .row2 ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #70757a;
+}
+
+.footer .row2 ul:nth-child(2) li a {
+    text-decoration: none;
+    font-size: 14px;
+}
