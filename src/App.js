@@ -6,8 +6,8 @@ import { searchData } from './api/googleSearch';
 
 const App = () => {
   const navigate = useNavigate();
-  const [searchTerm, setSearchTerm] = useState('');
-  const [googleData, setGoogleData] = useState({});
+  const [searchTerm, setSearchTerm] = useState(JSON.parse(localStorage.getItem('SearchTerm')));
+  const [googleData, setGoogleData] = useState(JSON.parse(localStorage.getItem('GoogleData')));
   const setSearch = async (term) => {
     setSearchTerm(term);
     const data = await searchData(term);

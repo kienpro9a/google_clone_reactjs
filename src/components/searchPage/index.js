@@ -8,10 +8,12 @@ import './SearchPage.css'
 
 const SearchPage = ({ searchTerm, googleData, setSearch }) => {
     const navigate = useNavigate();
-    console.log(googleData);
     useEffect(() => {
         if (searchTerm === '' || googleData === '{}') {
             navigate('/');
+        }else{
+            localStorage.setItem('SearchTerm',JSON.stringify(searchTerm));
+            localStorage.setItem('GoogleData',JSON.stringify(googleData));
         }
     }, [searchTerm, navigate, googleData]);
     
